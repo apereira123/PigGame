@@ -9,15 +9,8 @@ public class PairOfDice {
 	public static int getDie1() {
 		return die1;
 	}
-	public static void setDie1(int n) {
-		die1 = n;
-	}
-	
 	public static int getDie2() {
 		return die2;
-	}
-	public static void setDie2(int n) {
-		die2 = n;
 	}
 	
 	public static int rollDice() {

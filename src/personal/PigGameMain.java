@@ -10,9 +10,9 @@ public class PigGameMain extends PigGameLogic {
 			compTurn();
 		}
 		if (userSum >= 100) {
-			System.out.println("Congratulations, you won!");
+			System.out.println("Congratulations, you won! Your sum is " + userSum + " .");
 		} else {
-			System.out.println("Sorry, the computer won.");
+			System.out.println("Sorry, the computer won. Its sum is " + compSum + ".");
 		}
 		System.out.println("Thank you for playing.");
 		scan.close();
