@@ -1,13 +1,13 @@
 package personal;
 
-public class pairOfDice {
+public class PairOfDice {
 
 	private int sum;
 	
 	Die die1 = new Die();
 	Die die2 = new Die();
 	
-	public pairOfDice() {
+	public PairOfDice() {
 		sum = 0;
 	}
 	

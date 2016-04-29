@@ -9,7 +9,7 @@ public class PigGameLogic {
 	public static int compSum = 0;
 	private static int tempUserSum = 0;
 	private static int tempCompSum = 0;
-	private static pairOfDice dice = new pairOfDice();
+	private static PairOfDice dice = new PairOfDice();
 	private static boolean stillPlaying = true;
 	
 	public static void userTurn() {
