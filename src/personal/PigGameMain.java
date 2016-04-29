@@ -18,5 +18,4 @@ public class PigGameMain extends PigGameLogic {
 		scan.close();
 	}
 	
-
 }
