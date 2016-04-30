@@ -7,7 +7,9 @@ public class PigGameMain extends PigGameLogic {
 		System.out.println("I hope you enjoy the game. Good luck and have fun!");
 		while (userSum < 100 && compSum < 100) {
 			userTurn();
-			compTurn();
+			if (userSum < 100) {
+				compTurn();	
+			}
 		}
 		if (userSum >= 100) {
 			System.out.println("Congratulations, you won! Your sum is " + userSum + " .");
@@ -16,6 +18,7 @@ public class PigGameMain extends PigGameLogic {
 		}
 		System.out.println("Thank you for playing.");
 		scan.close();
+		
 	}
 	
 }
