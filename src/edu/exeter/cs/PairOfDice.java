@@ -2,10 +2,14 @@ package edu.exeter.cs;
 
 public class PairOfDice {
 
-	private int sum = 0;
+	private int sum;
 	
 	Die die1 = new Die();
 	Die die2 = new Die();
+	
+	public PairOfDice() {
+		sum = 0;
+	}
 	
 	public int getDie1() {
 		return die1.getFaceValue();
@@ -21,11 +25,10 @@ public class PairOfDice {
 		die2.setFaceValue(n);
 	}
 	
-	public int rollDice() {
+	public void rollDice() {
 		sum = die1.roll() + die2.roll();
-		return sum;
 	}
-	public int getDiceSum() {
+	public int getSum() {
 		return sum;
 	}
 	
