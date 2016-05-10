@@ -5,6 +5,8 @@ public class PigGameMain extends PigGameLogic {
 	public static void main(String[] args) {
 		
 		System.out.println("I hope you enjoy the game. Good luck and have fun!");
+		PairOfDice dice = new PairOfDice();
+		System.out.println(dice);
 		System.out.println();
 		try {
 			Thread.sleep(1000);
